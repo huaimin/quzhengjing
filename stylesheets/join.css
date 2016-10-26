@@ -1,0 +1,37 @@
+﻿@charset "utf-8";
+/* public */
+body,ul,p,h1,h2,h3,h4,dl,dd,form,input{padding:0;margin:0;font-family:"微软雅黑";"黑体";}
+li{list-style:none;}
+img{border:none;vertical-align:top;}
+a{text-decoration:none;}
+input,textarea,select,lable{ outline:none; border:none;}
+em{font-style:normal;}
+table { border-collapse: collapse; }
+a:hover{text-decoration:none;}
+a:focus {outline:none;-moz-outline:none;}
+.clear{zoom:1;}
+.clear:after{content:"";display:block;clear:both;}
+.pull-left{float:left;}
+.site_img{background: #000;width: 100%;float:left;}
+body{width:100%;}
+.container .row {margin-left:0;margin-right:0;}
+.bd-container{position: relative;}
+.wrap{position: absolute;left: 10%;}
+.bd-au-main{margin: 0 auto;}
+
+
+@media (max-width: 991px){
+.bd-container li{width: 90%;margin-left: 50px;margin: 0 auto;height: auto;}
+
+.navbar-nav {border-bottom:none;}
+.wrap{position: absolute;left: 5%;}
+}
+
+.footer{float:left;}
+
+
+
+
+
+
+

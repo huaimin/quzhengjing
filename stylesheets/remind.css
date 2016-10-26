@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* public */
+
+body,ul,p,h1,h2,h3,h4,dl,dd,form,input{padding:0;margin:0;font-family:"微软雅黑";"黑体";}
+li{list-style:none;}
+img{border:none;vertical-align:top;}
+a{text-decoration:none;}
+input,textarea,select,lable{ outline:none; border:none;}
+input{cursor: pointer;}
+em,i{font-style:normal;}
+table { border-collapse: collapse;}
+a:hover{text-decoration:none;}
+a:focus {outline:none;-moz-outline:none;}
+.clear{zoom:1;}
+.clear:after{content:"";display:block;clear:both;}
+.pull-left{float:left;}
+.pull-right{float:right;}
+body{width:100%;background: #f7f7f5;}
+
+
+.remind{height: 396px;width: 400px; margin: 0 auto;position: relative;}
+.center{width: 400px;margin: 20px auto;background:white ;}
+.top{width: 100%;height:60px;line-height:60px;text-align: center;color: #45a5bf;border-bottom: 1px solid #e7e7e7;}
+/*.top span img{display: block;width: 10%;height: 50%;margin-top: 5%;margin-left: 25%;}*/
+.top li{width: 97%;float: left;margin-top: 10px;}
+.top i{width: 40px;height: 40px;background: url(../img/NO.png) no-repeat; display: block;right:-4%;top:7%;position: absolute;}
+.bottom p{width: 360px;height: 30px;line-height: 30px;text-align: center;margin: 1px auto;color: #45a5bf;cursor: pointer;}
+.bottom li{width: 100%;height: 30px;line-height: 30px;text-align: center;margin:15px auto;}
+.center ul{width: 90%;margin: 20px auto;height: 40px;line-height: 40px;}
+.center ul li{width: 40%;border: 1px solid #ededed;float: left;margin-left:24px;text-align: center;cursor: pointer;}
+.li1{background: #2771B1;color: #fff;}
+.li1:hover{background:  #1B61A6;}
+.li2:hover{background:#2771B1;color: #fff;}
+
+
+

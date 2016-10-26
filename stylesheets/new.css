@@ -1,0 +1,209 @@
+
+@charset "utf-8";
+/* public */
+
+body,ul,p,h1,h2,h3,h4,dl,dd,form,input{padding:0;margin:0;font-family:"微软雅黑";"黑体";}
+body{background: #f7f7f5;}
+li{list-style:none;}
+img{border:none;vertical-align:top;}
+a{text-decoration:none;}
+input,textarea,select,lable,boder{ outline:none; border:none;}
+input{cursor: pointer;}
+em,i{font-style:normal;}
+table { border-collapse: collapse; }
+a:hover{text-decoration:none;}
+a:focus {outline:none;-moz-outline:none;}
+.clear{zoom:1;}
+.clear:after{content:"";display:block;clear:both;}
+.pull-left{float:left;}
+.pull-right{float:right;}
+
+
+
+.register{width: 400px;height: auto; margin: 0 auto; margin-top:70px;color: #BDBDBD;}
+.register .logo{margin: 0 auto; width: 180px; height: 53px; margin-bottom: 21px;}
+
+.register .content{ width: 400px; height: 908px; background: white; }
+.register .zhuce{color: black; font-size: 24px; text-align: center; padding-top: 27px;}
+
+.content form li{position: relative;}
+.call,.call1{position: relative;}
+.call em{position: absolute;top:30px;}
+.call1 em{position: absolute;top:50px;}
+em{color: red;position: absolute;left: 20px;top:35px;}
+@media (max-width:470px ) {
+	em{left: 10px;}
+}
+.register .name{width:320px; height: 40px;border: 1px solid #E1E1E1;line-height: 40px; outline: none;text-indent: 12px;color: #d9d9d9; margin-left: 40px; margin-top: 26px;color:#BDBDBD;-webkit-appearance:none;}
+.register .name:hover{ border: 1px solid #a8a8a8; color: black;}
+.register .password{width:320px; height: 40px;border: 1px solid #E1E1E1;line-height: 40px; outline: none;text-indent: 12px;color: #d9d9d9; margin-left: 40px; margin-top: 20px;color: #BDBDBD;-webkit-appearance:none;}
+.register .password:hover{border: 1px solid #a8a8a8;color: black;}
+.register .repassword{width:320px; height: 40px;border: 1px solid #E1E1E1;line-height: 40px; outline: none;text-indent: 12px;color: #BDBDBD; margin-left: 40px; margin-top: 20px;-webkit-appearance:none;}
+.register .repassword:hover{ border: 1px solid #a8a8a8;color: black;}
+.register .mailbox{width:320px; height: 40px;border: 1px solid #E1E1E1;line-height: 40px; outline: none;text-indent: 12px;color: #BDBDBD; margin-left: 40px; margin-top:40px;-webkit-appearance:none;}
+.register .mailbox:hover{border: 1px solid #a8a8a8;color: black;}
+.register .phone{width:320px; height: 40px;border: 1px solid #E1E1E1;line-height: 40px; outline: none;text-indent: 12px;color: #BDBDBD; margin-left: 40px; margin-top: 20px;-webkit-appearance:none;}
+.register .phone:hover{border: 1px solid #a8a8a8;color: black;}
+.register .realname{width:320px; height: 40px;border: 1px solid #E1E1E1;line-height: 40px; outline: none;text-indent: 12px;color: #BDBDBD; margin-left: 40px; margin-top:40px;-webkit-appearance:none;}
+.register .realname:hover{border: 1px solid #a8a8a8;color: black;}
+.register .company{width:320px; height: 40px;border: 1px solid #E1E1E1;line-height: 40px; outline: none;text-indent: 12px;color: #BDBDBD; margin-left: 40px; margin-top: 20px;-webkit-appearance:none;}
+.register .company:hover{border: 1px solid #a8a8a8;color: black;}
+.register .qq{width:320px; height: 40px;border: 1px solid #E1E1E1;line-height
+: 40px; outline: none;text-indent: 12px;color: #BDBDBD; margin-left: 40px; margin-top: 20px;-webkit-appearance:none;}
+.register .qq:hover{border: 1px solid #a8a8a8;color: black;}
+.register .select{width:320px; height: 40px;border: 1px solid #E1E1E1;line-height
+: 40px; outline: none;text-indent: 12px;color: #BDBDBD; margin-left: 40px; margin-top: 20px; -webkit-appearance:none;}
+.register .select:hover{border: 1px solid #a8a8a8;color: black;}
+.register .kinds{width:320px; height: 40px;border: 1px solid #E1E1E1;line-height
+: 40px; outline: none;text-indent: 12px;color: #BDBDBD; margin-left: 40px; margin-top: 20px;-webkit-appearance:none;}
+.register .kinds:hover{ border: 1px solid #a8a8a8;color: black;}
+/*  下拉切换的内容   */
+.content span{width:25.5%; position:absolute;color: #fff;margin-left:40px;top: 30px;}
+
+#xuanze_01 li{width:100%; float:left; height:30px; position:relative;}
+
+#xuanze_01 span{width:320px; position:absolute; left:0px; top:30px;background: #e1e1e1;background-color: rgba(0,0,0,0.5); border-top:0px; border-bottom:0px;display: none; }
+#neirong_01{margin-top: 30px;}
+#neirong_01 a{height:30px; line-height:30px; display:block; padding-left:15px;color: #fff;}
+
+.tip{position: relative;}
+.tips{color: red; position: absolute; left:48%; top:57%; font-size:12px;text-align: right;width:160px ;}
+#plus{ position: absolute; right:12%; bottom:12%; float: left;  cursor: pointer;color: #337ab7;}
+#plus:hover,#plus1:hover{text-decoration: underline;}
+#plus1{position: absolute; right:12%; bottom:15%; float: left; cursor: pointer;color: #337ab7;}
+
+.content p{width: 320px;height: 40px;line-height:40px;background: #47B3A3;margin: 0 auto;text-align: center;border-radius: 2px;margin-top:10px;cursor: pointer;}
+.content p:hover{background: #39a796;}
+.content p a{font-size: 16px;color: white;}
+.content ul{width: 320px;height:40px;line-height:40px;margin: 0 auto;margin-top:10px;}
+.li1{width: 180px;float: left;text-align: right;color: #000;}
+.li2{width:120px;float: right;text-align: left;}
+.li2 a{color: #2771B1;}
+.li2 a:hover{text-decoration: underline;}
+.return{width: 320px;margin:0 auto;height:40px ;line-height:20px;text-align: center;}
+.return a{color: #bbb;font-size: 14px;}
+.return a:hover{color: #3389c9;text-decoration:underline;}
+.mima{width: 320px;margin:0px auto;height: 40px; margin-top: 17px;}
+.mima i a:hover{text-decoration:underline;color: #337ab7;}
+.check1{width: 60px;float: left;height:40px ;}
+.check1 i a{text-decoration: none;}
+.check2{width: 70px;float:right;height:40px ;}
+.check2 a{ color:#A9A9A9;}
+
+.all{width: 100%;height:100%;position:fixed;z-index: 9999;top:0%;background: rgba(0,0,0,0.7);display: none;}
+.xiala{width: 910px;height:450px;border: 1px solid #E1E1E1; background: white; position: absolute; left:50%; top:10%; margin-left: -450px; height: 500px;overflow-y: scroll;}
+ .xiala .xiala_top{ width: 870px; height: 57px; line-height: 57px; border-bottom: 2px solid #E9E9E9; margin-left: 15px; position: relative;}
+ .xiala .xiala_top p{font-size:21px; color: black;}
+ .xiala .xiala_top #gb{ position: absolute; right: 20px; top:25px;}
+ .xiala .xiala_content1{width: 870px;border-bottom: 2px solid #E9E9E9;float: left;margin-left: 15px;display: table;}
+
+.content1_0{ width: 10%;float: left;display: table-cell; text-align:center; vertical-align:middle;height: 100%;margin-top: 5.5%;}
+
+ .bao{float: right;width: 90%;}
+ .bao li{width: 23.5%;float: left;height:40px ;line-height: 40px;margin-left: 10px;}
+ .bao li a{text-align: center;}
+
+.xiala .xiala_content2{width: 870px;border-bottom: 2px solid #E9E9E9;float: left;margin-left: 15px;}
+.xiala .xiala_content3{width: 870px;border-bottom: 2px solid #E9E9E9;float: left;margin-left: 15px;}
+.xiala .xiala_content4{width: 870px;float: left;margin-left:15px;}
+
+
+@media (max-width: 399px){
+.register{width: 300px;}
+.register .content{width: 300px;}
+.register .name{width:250px;  margin-left: 25px;}
+.register .password{width:250px;  margin-left: 25px;}
+.register .repassword{width:250px; margin-left: 25px;}
+.register .mailbox{width:250px;  margin-left: 25px;}
+.register .phone{width:250px; margin-left: 25px;}
+.register .realname{width:250px;  margin-left: 25px;}
+.register .company{width:250px; margin-left: 25px;}
+.register .qq{width:250px;  margin-left: 25px;}
+.register .select{width:250px; margin-left: 25px;}
+
+.tips{left:45%;width: 135px;}
+.register .kinds{width:250px;  margin-left: 25px;}
+
+.register p{width:250px;}
+#xuanze_01 span{width:250px; position:absolute; left:-15px; top:30px;}
+.content ul{width:250px;}
+.li1{text-align: left; width:70%;}
+.li2{text-align: right; width: 30%;}
+.return{width:250px;}
+
+.mima{font-size: 13px;margin-left: 15px;}
+}
+/*  行业弹出窗 的768px 以下  */
+@media (max-width:990px) and (min-width:767px){
+.xiala{width:750px; height:450px;position: absolute; left:33%; top:10%; margin-left:-225px;}
+.xiala .xiala_top{ width:720px; height: 57px; line-height: 57px; border-bottom: 1px solid #E9E9E9; margin-left: 20px; position: relative;}
+ .xiala .xiala_top #gb{ position: absolute; right: 15px;}
+ .xiala .xiala_content1{width:730px; border-bottom: 1px solid #E9E9E9; }
+
+.xiala .xiala_content1{width: 730px;border-bottom: 2px solid #E9E9E9;float: left;}
+
+.content1_0{ width: 10%;float: left;margin-top: 3.5%;}
+ .bao{float: right;}
+ .bao li{width: 31%;float: left;}
+ .bao li a{text-align: center;}
+
+.xiala .xiala_content2{width: 730px;}
+.xiala .xiala_content3{width: 730px;}
+.xiala .xiala_content4{width: 730px;float: left;margin-left: 20px;}
+.xiala .xiala_content1 .content1_1{ width: 78px; height: 52px;}
+
+.xiala .xiala_content2{width: 700px; height:77px; line-height: 77px; border-bottom: 1px solid #E9E9E9; margin-left: 20px;}
+ .xiala .xiala_content3{width:700px; height:77px; line-height: 77px; border-bottom: 1px solid #E9E9E9; margin-left: 20px;}
+ .xiala .xiala_content4{width: 700px; height:77px; line-height: 71px;  margin-left: 20px;}
+	
+	}
+@media (max-width:768px){	
+.xiala{width:320px; height:450px; position: absolute; left:54.6%; top:10%; margin-left:-175px;}
+ .xiala .xiala_top{ width:280px; height: 57px; line-height: 57px; border-bottom: 1px solid #E9E9E9; margin-left: 20px; position: relative;}
+
+ .xiala .xiala_top #gb{ position: absolute; right: 5px;}
+ .xiala .xiala_content1{width:280px; height:71px; line-height: 71px; border-bottom: 1px solid #E9E9E9; margin-left: 20px;}
+.xiala .xiala_content1 span{width: 100%;height: auto;margin-top: 0%;}
+.bao li{width: 100%;}
+
+.register .content1_0{color: black;}
+.register .content1_0:hover{color: #49B4A3;}
+.xiala .xiala_content1 .content1_1{ width: 78px; height: 52px;}
+
+.xiala .xiala_content2{width: 280px; height:77px; line-height: 77px; border-bottom: 1px solid #E9E9E9; margin-left: 20px;}
+ .xiala .xiala_content3{width:280px; height:77px; line-height: 77px; border-bottom: 1px solid #E9E9E9; margin-left: 20px;}
+ .xiala .xiala_content4{width: 280px; height:77px; line-height: 71px;  margin-left: 20px;}
+	}
+/*  点击协议 出现的内容  */
+.agreement{width: 100%;height:100%;position:fixed;z-index: 9999;top:0%;background: rgba(0,0,0,0.7);display: none;}
+.xiala1{width: 930px;border: 1px solid #E1E1E1; background: white; position: absolute; left:45%; top:10%; margin-left: -400px;height: 500px;}
+ .xiala1 .xiala_top{ width: 870px; height: 57px; line-height: 57px; border-bottom: 2px solid #E9E9E9; margin-left: 15px; position: relative;}
+ .xiala1 .xiala_top p{font-size:21px; color: black;text-align: center; }
+ .xiala1 .xiala_top #gb{ position: absolute; right: 20px; top:25px;}
+h4{font-weight: bold;height: 40px;line-height: 40px;}
+/*  行业弹出窗 的768px 以下  */
+@media (max-width:990px) and (min-width:767px){
+.xiala1{width:760px;height: 450px;position: absolute; left:31%; top:10%; margin-left:-225px;}
+.xiala1 .xiala_top{ width:720px; height: 57px; line-height: 57px; border-bottom: 1px solid #E9E9E9; margin-left: 20px; position: relative;}
+ .xiala1 .xiala_top #gb{ position: absolute; right: 15px;}
+ .xiala1 .xiala_content1{width:740px; border-bottom: 1px solid #E9E9E9; }
+
+.content1_0{ width: 10%;float: left;margin-top: 3.5%;}
+ 
+.xiala1 .xiala_content2{width: 700px; height:77px; line-height: 77px; border-bottom: 1px solid #E9E9E9; margin-left: 20px;}
+	}
+@media (max-width:768px){	
+.xiala1{width:320px;height: 470px; position: absolute; left:53%; top:10%; margin-left:-175px;}
+.xiala1 .xiala_top{ width:280px; height: 57px; line-height: 57px; border-bottom: 1px solid #E9E9E9; margin-left: 20px; position: relative;}
+ .xiala1 .xiala_top #gb{ position: absolute; right: 5px;}
+ .xiala1 .xiala_content1{width:280px; height:71px; line-height: 71px; border-bottom: 1px solid #E9E9E9; margin-left: 20px;}
+.xiala1 .xiala_content1 span{width: 100%;height: auto;margin-top: 0%;}
+
+.register .content1_0{color: black;}
+.register .content1_0:hover{color: #49B4A3;}
+.xiala .xiala_content1 .content1_1{ width: 78px; height: 52px;}
+
+.xiala .xiala_content2{width: 280px; height:77px; line-height: 77px; border-bottom: 1px solid #E9E9E9; margin-left: 20px;}
+ .xiala .xiala_content3{width:280px; height:77px; line-height: 77px; border-bottom: 1px solid #E9E9E9; margin-left: 20px;}
+ .xiala .xiala_content4{width: 280px; height:77px; line-height: 71px;  margin-left: 20px;}
+	}
